@@ -1,0 +1,236 @@
+*{
+    box-sizing: border-box;
+    margin:0px;
+    padding:0px;
+    border: 0px;
+}
+body{
+    width:100vw;
+    height:100vh;
+    background-color: aliceblue;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    padding:20px;
+    align-items: center;
+}
+.title{
+    font-size:x-large;
+    font-weight: bold;
+}
+.list ul{
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+}
+.list ul li{
+    margin-left:40px;
+    list-style-type: none;
+}
+#hello{
+    position: absolute;
+    left: 13vh;
+    top:45px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 10px;
+}
+ #hello ul li{
+    list-style-type: none;
+   padding: 3px;
+}
+#hey{
+    padding: 10px;
+    background-color: white;
+    position: absolute;
+    left: 33vh;
+    top:45px;
+}
+#hey ul li{
+    list-style-type: none;
+    padding:5px;
+}
+.sigin ul{
+    display: flex;
+    flex-direction: row;
+    position:absolute;
+    right:0px;
+    align-items: center;
+}
+.sigin ul li{
+    margin-right:40px;
+    list-style-type: none;
+}
+.menu{
+    display: none;
+    position:absolute;
+    right:3vw;
+}
+.close{
+    position: absolute;
+    right:3vw;
+    top:3vh;
+}
+#men{
+    display: none;
+    width:50%;
+    height:100vh;
+    background-color: rgb(243, 241, 236);
+    color: black;
+    position: absolute;
+    right:0;
+    top:0;
+    z-index: 1;
+}
+.listen{
+   position: absolute;
+   top:50px;
+   left:20px;
+}
+.listen li{
+    padding:10px;
+    font-size:20px;
+}
+.listen .sign{
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+}
+.main{
+    display:flex;
+    position:absolute;
+    bottom:40px;
+}
+.left{
+    width: 50vw;
+    height:70vh;
+    position: relative;
+    left:8vw;
+}
+p{
+    width:30vw;
+}
+img{
+    width: 40vw;
+    height: 70vh;
+}
+.bold{
+    font-size: 4.5vw;
+    font-weight:bolder;
+}
+P{
+    font-size: 20px;
+    padding: 20px 0px;
+}
+.learn{
+    padding:10px;
+    background-color: black;
+    border:1px solid black;
+    color:white;
+    border-radius: 10px;
+    position: absolute;
+    left:40%;
+}
+.more{
+    padding:10px;
+    background-color: black;
+    border:1px solid black;
+    color:white;
+    border-radius: 10px;
+    position: absolute;
+    left:20%;
+}
+
+.inline{
+    position: relative;
+    padding: 50px 0px 0px 0px;
+}
+
+.andriod{
+    display: none;
+    width:100vw;
+}
+.andriod img{
+    width:100vw;
+    height:50vh;
+    position:absolute;
+   
+}
+.andriod-t{
+    display: none;
+    width:100vw;
+}
+.t{
+    align-items: center;
+    justify-content: center;
+}
+@media screen and (max-width:800px) {
+    body{
+        background-color: white;
+    }
+    .list{
+        display:none;
+    }
+    .sigin{
+       display: none;
+    }
+    .main{
+        display: contents;
+    }
+    .left{
+        display:none;
+    }
+   .desktop{
+    display: none;
+   }
+  .andriod{
+    display: block;
+    position: absolute;
+  }
+  .andriod-t{
+    display:block;
+    position: relative;
+    top:50vh;
+    text-align: center;
+  }
+  p{
+    width:100%;
+   justify-content: center;
+  }
+  .inline{
+    position:relative;
+  }
+.andriod-t h4{
+
+    padding: 10px;
+
+    position: relative;
+    text-align: center;
+ }
+ .menu{
+    display: block;
+ }
+ #men .listen ul{
+    display:block;
+    list-style-type: none;
+}
+#hell{
+    padding: 15px;
+}
+ #hell ul li{
+    list-style-type: none;
+   padding: 3px;
+}
+#he{
+    padding: 10px;
+    position: relative;
+}
+#he ul li{
+    list-style-type: none;
+    padding:5px;
+}
+.sign{
+     margin-left:30%;
+}
+}
